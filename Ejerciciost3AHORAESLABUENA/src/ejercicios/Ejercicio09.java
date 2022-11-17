@@ -9,10 +9,18 @@ public class Ejercicio09 {
 		/*
 		 PRUEBAS DEL EJERCICIO:
 		 
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
+		 INPUT: 0
+		 OUTPUT: RESULTADO ESPERADO:
+		 INPUT: Lo siento, el número tiene que ser mayor que cero.  
+		 RESULTADO ESPERADO: Lo siento, el número tiene que ser mayor que cero.
+		 
+		 INPUT: 1
+		 OUTPUT: El número tiene 1 dígitos.
+		 RESULTADO ESPERADO: El número tiene 1 dígitos.
+		 
+		 INPUT: 321 
+		 OUTPUT: El número tiene 3 dígitos.
+		 RESULTADO ESPERADO: El número tiene 3 dígitos.
 		 */
 		
 		int cifras=0; //Variable que guarda las cifras
@@ -24,7 +32,7 @@ public class Ejercicio09 {
 		System.out.print("Introduzca un número mayor que cero: "); //Pedimos el número
 		num = sc.nextInt();//Lo leemos
 		
-		if(num<0) { //Si el número es negativo...
+		if(num<=0) { //Si el número es negativo...
 			
 			System.out.println("Lo siento, el número tiene que ser mayor que cero."); //...Mostramos error
 		

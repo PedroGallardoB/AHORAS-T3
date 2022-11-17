@@ -9,8 +9,17 @@ public class Ejercicio08 {
 		/*
 		 * PRUEBAS DEL EJERCICIO:
 		 * 
-		 * INPUT: OUTPUT: RESULTADO ESPERADO: INPUT: OUTPUT: RESULTADO ESPERADO: INPUT:
-		 * OUTPUT: RESULTADO ESPERADO: INPUT: OUTPUT: RESULTADO ESPERADO:
+		 * INPUT: 1, 2, 3, 0
+		 * OUTPUT: Fallos : 0, Total de números: 3
+		 * RESULTADO ESPERADO: Fallos : 0, Total de números: 3
+		 * 
+		 * INPUT: 0
+		 * OUTPUT: Cero finaliza el programa, no hay números introducidos.
+		 * RESULTADO ESPERADO: Cero finaliza el programa, no hay números introducidos. 
+		 * 
+		 * INPUT: 3, 1 (Output: Fallo, es menor), 0
+		 * OUTPUT: Fallos : 1, Total de números: 2
+		 * RESULTADO ESPERADO: Fallos : 1, Total de números: 2
 		 */
 
 		int fallo = 0; // Variable que almacena la cantidad de fallos
@@ -41,7 +50,7 @@ public class Ejercicio08 {
 				System.out.println("Fallos : " + fallo + ", Total de números: " + total); // Imprimimos el resultado
 
 			}
-			if (num < old) { // Si el número es manor
+			if (num < old && num!=0) { // Si el número es manor
 				System.out.println("Fallo, es menor."); // Indicamos el fallo al usuario
 				fallo++; // Sumamos uno al contador de fallos
 			}

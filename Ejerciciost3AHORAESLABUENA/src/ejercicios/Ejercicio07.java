@@ -17,9 +17,20 @@ public class Ejercicio07 {
 		 OUTPUT: El número debe ser mayor que cero. 
 		 RESULTADO ESPERADO: El número debe ser mayor que cero.
 		
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
+		 INPUT: 1  OUTPUT: 1 RESULTADO ESPERADO: 1
+		 
+		 INPUT: 4  
+		 OUTPUT: 
+1
+121
+12321
+1234321
+		 RESULTADO ESPERADO:
+		 
+1
+121
+12321
+1234321
 		 */
 
 			int num; // Número introducido.

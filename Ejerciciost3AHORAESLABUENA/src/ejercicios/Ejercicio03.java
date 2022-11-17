@@ -24,21 +24,11 @@ public class Ejercicio03 {
      * * * 
     * * * * 
 
-		 INPUT: 5
+		 INPUT: 1
 		 
-		 OUTPUT: 
-		 
-    * 
-   * * 
-  * * * 
- * * * * 
-* * * * * 
-		 RESULTADO ESPERADO: 
-    * 
-   * * 
-  * * * 
- * * * * 
-* * * * * 
+		 OUTPUT:   * 
+ 
+		 RESULTADO ESPERADO: * 
 
 		 INPUT:  0
 		 OUTPUT: El número debe ser mayor que cero.
