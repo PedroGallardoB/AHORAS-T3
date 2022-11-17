@@ -9,7 +9,14 @@ public class Ejercicio07 {
 		/*
 		 PRUEBAS DEL EJERCICIO:
 		 
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
+		 INPUT: -1 
+		 OUTPUT: El número debe ser mayor que cero. 
+		 RESULTADO ESPERADO: El número debe ser mayor que cero.
+		 
+		 INPUT: 0
+		 OUTPUT: El número debe ser mayor que cero. 
+		 RESULTADO ESPERADO: El número debe ser mayor que cero.
+		
 		 INPUT:  OUTPUT: RESULTADO ESPERADO:
 		 INPUT:  OUTPUT: RESULTADO ESPERADO:
 		 INPUT:  OUTPUT: RESULTADO ESPERADO:

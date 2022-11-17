@@ -30,7 +30,7 @@ public class Ejercicio09 {
 		
 		}else{//Si es positivo...
 			
-			for (int div = num/decimas; div>=1;div = num/decimas){ //...Iniciamos un bucle que cuenta las cifras dividiendo entre múltiplos de 10
+			for (int div = num; div>=1; div = num/decimas){ //...Iniciamos un bucle que cuenta las cifras dividiendo entre múltiplos de 10
 				
 				cifras++;//Contador de cifras
 				decimas *=10;//Multiplos de 10 para separar las cifras

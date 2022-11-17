@@ -9,10 +9,10 @@ public class Ejercicio04 {
 		/*
 		 PRUEBAS DEL EJERCICIO:
 		 
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
+		 INPUT: 0 y 0 OUTPUT: 0 RESULTADO ESPERADO: 0
+		 INPUT: 5 y 6 OUTPUT: 1 RESULTADO ESPERADO: 1
+		 INPUT: 3 y 6 OUTPUT: 3 RESULTADO ESPERADO: 3
+		 INPUT: -2 y 4 OUTPUT: -2 RESULTADO ESPERADO: -2
 		 */
 
 		int num1; // Número introducido primero.
@@ -38,7 +38,7 @@ public class Ejercicio04 {
 			//Guardamos en las variables mayor y menor cual es cada uno
 			mayor = num1 > num2 ? num1 : num2;
 			menor = num1 < num2 ? num1 : num2;
-			contador = menor+1; //Contador inicializa como menor + 1
+			contador = menor + 1; //Contador inicializa como menor + 1
 
 			while (mcd != contador) { //Cuando el máximo común divisor sea igual al contador tendremos la solución
 

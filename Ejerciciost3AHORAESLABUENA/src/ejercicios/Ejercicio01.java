@@ -8,10 +8,18 @@ public class Ejercicio01 {
 		/*
 		 PRUEBAS DEL EJERCICIO:
 		 
-		 INPUT: OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
+		 INPUT: 23h 59m 59s Aumentar: 2s
+		 OUTPUT: 0h 0m 1s 
+		 RESULTADO ESPERADO: 0h 0m 1s 
+		 
+		 INPUT: 23h -29m 53s 
+		 OUTPUT: Los valores introducidos son incorrectos
+		 RESULTADO ESPERADO: Los valores introducidos son incorrectos
+		 
+		 INPUT: 13h 59m 40s Aumentar: 5s
+		 OUTPUT: 14h 0m 5s 
+		 RESULTADO ESPERADO:  14h 0m 5s
+	
 		 */
 
 		int hor; // La variable guarda los segundos

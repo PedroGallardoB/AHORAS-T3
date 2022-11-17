@@ -8,10 +8,18 @@ public class Ejercicio02 {
 		/*
 		 PRUEBAS DEL EJERCICIO:
 		 
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
-		 INPUT:  OUTPUT: RESULTADO ESPERADO:
+		 INPUT: num = 8  
+		 OUTPUT: Hay 4 números primos.
+		 RESULTADO ESPERADO: Hay 4 números primos.
+		 
+		 INPUT: num = 1
+		 OUTPUT: Hay 0 números primos.
+		 RESULTADO ESPERADO: Hay 0 números primos.
+		 
+		 INPUT: -2
+		 OUTPUT: El número debe ser entero positivo.
+		 RESULTADO ESPERADO: El número debe ser entero positivo.
+		 
 		 */
 
 		int num; // Número introducido.
@@ -25,7 +33,7 @@ public class Ejercicio02 {
 		num = sc.nextInt(); // Leemos
 
 		// Comprobamos que el número introducido es positivo
-		if (num > 0) {
+		if (num >= 0) {
 			// Recorremos los números desde 2 hasta el número
 
 			for (int aux = 2; aux <= num; aux++) {//Iniciamos la aux en dos, la incrementamos cada turno y si llegase a ser mayor que num no se ejecuta
@@ -49,6 +57,9 @@ public class Ejercicio02 {
 				sc.close();//Cerramos el escáner
 
 			
+		} else {
+			
+			System.out.println("El número debe ser entero positivo.");
 		}
 
 	}
